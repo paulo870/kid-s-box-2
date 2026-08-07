@@ -85,7 +85,7 @@ function loadImage(src) {
 function loadHome() {
     currentImages = [];
     currentIndex = 0;
-    loadImage("images/homepage.jpeg");
+    loadImage("images/homepage.jpg");
     prevBtn.style.display = "none";
     nextBtn.style.display = "none";
 }
@@ -102,18 +102,18 @@ function loadStudentUnit(unitNumber) {
 
     let pageNumbers = [];
     switch(unitNumber) {
-        case "1": pageNumbers = [6,7,8,9,10,11]; break;
-        case "2": pageNumbers = [12,13,14,15,16,17]; break;
-        case "3": pageNumbers = [18,19,20,21,22,23,24,25]; break;
-        case "4": pageNumbers = [26,27,28,29,30,31]; break;
-        case "5": pageNumbers = [32,33,34,35,36,37]; break;
-        case "6": pageNumbers = [38,39,40,41,42,43,44,45]; break;
-        case "7": pageNumbers = [46,47,48,49,50,51]; break;
-        case "8": pageNumbers = [52,53,54,55,56,57]; break;
-        case "9": pageNumbers = [58,59,60,61,62,63,64,65]; break;
-        case "10": pageNumbers = [66,67,68,69,70,71]; break;
-        case "11": pageNumbers = [72,73,74,75,76,77]; break;
-        case "12": pageNumbers = [78,79,80,81,82,83,84,85]; break;
+        case "1": pageNumbers = [4,5,6,7,8,9]; break;
+        case "2": pageNumbers = [10,11,12,13,14,15,16,17]; break;
+        case "3": pageNumbers = [18,19,20,21,22,23]; break;
+        case "4": pageNumbers = [24,25,26,27,28,29,30,31,32,33]; break;
+        case "5": pageNumbers = [34,35,36,37,38,39]; break;
+        case "6": pageNumbers = [40,41,42,43,44,45,46,47]; break;
+        case "7": pageNumbers = [48,49,50,51,52,53]; break;
+        case "8": pageNumbers = [54,55,56,57,58,59,60,61,62,63]; break;
+        case "9": pageNumbers = [64,65,66,67,68,69]; break;
+        case "10": pageNumbers = [70,71,72,73,74,75,76,77]; break;
+        case "11": pageNumbers = [78,79,80,81,82,83]; break;
+        case "12": pageNumbers = [84,85,86,87,88,89,90,91,92,93]; break;
         default: pageNumbers = []; break;
     }
 
@@ -335,7 +335,7 @@ audioBtn.addEventListener("click", function(e) {
 
     // Define audio tracks for all units (Student Book)
     const studentBookAudioTracks = {
-        1: {7:["page7_Track_1.1"],8:["page8_Track_1.2"],9:["page9_Track_1.3","page9_Track_1.4"]},
+        1: {4:["page4_Track_02","page4_Track_03"],5:["page5_Track_04"],6:["page6_Track_5","page6_Track_6"],8:["page8_Track_07"],9:["page9_Track_08","page9_Track_09"]},
         2: {13:["page13_Track_2.1"],14:["page14_Track_2.2"],15:["page15_Track_2.3","page15_Track_2.4"]},
         3: {20:["page20_Track_3.1","page20_Track_3.2"],21:["page21_Track_3.3"]},
         4: {26:["page26_Track_4.1"],28:["page28_Track_4.2"],29:["page29_Track_4.3","page29_Track_4.4"],30:["page30_Track_4.5"]},
