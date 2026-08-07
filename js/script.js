@@ -335,7 +335,7 @@ audioBtn.addEventListener("click", function(e) {
 
     // Define audio tracks for all units (Student Book)
     const studentBookAudioTracks = {
-        1: {4:["page4_Track_02","page4_Track_03"],5:["page5_Track_04"],6:["page6_Track_5","page6_Track_6"],8:["page8_Track_07"],9:["page9_Track_08","page9_Track_09"]},
+        1: {4:["page4_Track_02","page4_Track_03"],5:["page5_Track_04"],6:["page6_Track_05","page6_Track_06"],8:["page8_Track_07"],9:["page9_Track_08","page9_Track_09"]},
         2: {13:["page13_Track_2.1"],14:["page14_Track_2.2"],15:["page15_Track_2.3","page15_Track_2.4"]},
         3: {20:["page20_Track_3.1","page20_Track_3.2"],21:["page21_Track_3.3"]},
         4: {26:["page26_Track_4.1"],28:["page28_Track_4.2"],29:["page29_Track_4.3","page29_Track_4.4"],30:["page30_Track_4.5"]},
